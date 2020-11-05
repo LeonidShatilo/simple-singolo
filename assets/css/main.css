@@ -103,12 +103,6 @@ header h1 {
   background-clip: content-box;
 }
 
-/*** BURGER MENU ***/
-
-#menu__toggle {
-  opacity: 0;
-}
-
 /************** SLIDER **************/
 
 .slider-container {
@@ -348,7 +342,8 @@ header h1 {
   gap: 20px;
   margin-top: 26px;
 }
-.portfolio-images:nth-child(1n + 13),
+
+.image-portfolio:nth-child(1n + 13),
 .portfolio-item:nth-child(1n + 13) {
   display: none;
 }
@@ -541,17 +536,15 @@ header h1 {
   }
   /* VERTICAL PHONE */
   .vertical-phone {
-    /* max-width: 100%; */
-    margin: 20.04px 0px 20.77px 16.6px;
     width: 88.24px;
     height: 177.57px;
+    margin: 20.04px 0px 20.77px 16.6px;
   }
   /* HORIZONTAL PHONE */
   .horizontal-phone {
-    /* max-width: 100%; */
-    margin: 65.26px 0 64.89px 26.84px;
     width: 177.57px;
     height: 88.24px;
+    margin: 65.26px 0 64.89px 26.84px;
   }
   /* SERVICES */
   .services-container,
@@ -560,9 +553,9 @@ header h1 {
   }
 
   .services-content {
-    min-width: 376px;
+    width: 376px;
     padding: 25.6px 29px 15px 33px;
-    margin: 0;
+    margin: 0 auto;
   }
   .services-header p {
     width: 314px;
